@@ -2,13 +2,13 @@
 
 from flask import Flask
 
-
 def create_app(config_class=None):
 
 	"Factory app"
 
 	app = Flask("app")
 
+	# Main route
 	def index():
 		return "Welcome to development world"
 
